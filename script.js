@@ -16,7 +16,7 @@ if (document.getElementById('clearCookies')) {
 
 (function (srcjs) {
   window._edrone = window._edrone || {};
-  _edrone.app_id = '538ca015c571z';
+  _edrone.app_id = '66fbe1ff7860a';
   _edrone.platform = 'custom';
   var doc = document.createElement('script');
   doc.type = 'text/javascript';
@@ -25,7 +25,7 @@ if (document.getElementById('clearCookies')) {
       + srcjs;
   var s = document.getElementsByTagName('script')[0];
   s.parentNode.insertBefore(doc, s);
-})("//d3bo67muzbfgtl.cloudfront.net/edrone_2_0.js?app_id=538ca015c571z");
+})("//d3bo67muzbfgtl.cloudfront.net/edrone_2_0.js?app_id=66fbe1ff7860a");
 
 
 var addToCartButtons = document.querySelectorAll('.addToCart');
@@ -40,9 +40,9 @@ addToCartButtons.forEach(function(button) {
     console.log('Product ID added to cart: ', productId);
 
     _edrone.product_titles = "(Product " + productId + ") Sample - Clothing And Accessory Boutiques For Sale";
-    _edrone.product_urls = "https://www.krozum.github.io/product" + productId + ".html";
+    _edrone.product_urls = "https://www.fcieminski-edrone.github.io/product" + productId + ".html";
     _edrone.product_skus = productId;
-    _edrone.product_images = "https://www.krozum.github.io/img/" + productId + ".png";
+    _edrone.product_images = "https://www.fcieminski-edrone.github.io/img/" + productId + ".png";
     _edrone.action_type = "add_to_cart";
     if (productId !== null) {
       _edrone.product_ids = productId;
@@ -66,9 +66,9 @@ productViewButtons.forEach(function(button) {
     console.log('Product ID viewed: ', productId);
 
     _edrone.product_titles = "(Product " + productId + ") Sample - Clothing And Accessory Boutiques For Sale";
-    _edrone.product_urls = "https://www.krozum.github.io/product" + productId + ".html";
+    _edrone.product_urls = "https://www.fcieminski-edrone.github.io/product" + productId + ".html";
     _edrone.product_skus = productId;
-    _edrone.product_images = "https://www.krozum.github.io/img/" + productId + ".png";
+    _edrone.product_images = "https://www.fcieminski-edrone.github.io/img/" + productId + ".png";
     _edrone.action_type = "product_view";
     if (productId !== null) {
       _edrone.product_ids = productId;
@@ -100,9 +100,9 @@ orderButtons.forEach(function(button) {
     console.log('Order ID: ', orderID)
 
     _edrone.product_titles = "(Product " + productId + ") Sample - Clothing And Accessory Boutiques For Sale";
-    _edrone.product_urls = "https://www.krozum.github.io/product" + productId + ".html";
+    _edrone.product_urls = "https://www.fcieminski-edrone.github.io/product" + productId + ".html";
     _edrone.product_skus = productId;
-    _edrone.product_images = "https://www.krozum.github.io/img/" + productId + ".png";
+    _edrone.product_images = "https://www.fcieminski-edrone.github.io/img/" + productId + ".png";
     _edrone.action_type = "order";
     _edrone.base_currency = "PLN";
     _edrone.order_currency = "PLN";
